@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divBody{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.divContent{
+    width: 100%;    
+    height: 100%;
+}
+.divLeftContainer{
+    height: 100%;
+   width: 40%;
+    float: left;
+    background-color: #3C89C7;  
+}
+.divRightContainer{
+    height: 100%;
+    width: 60%;
+    float: left;
+    background-color: #fff;
+}
+.divContentBox{
+    border-radius: 15px;
+    position: relative;
+    width: 60%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 6px 6px 24px 18px #ccc;
+    left: 10%;
+    top: 25%;
+}
+.divContentBox-title{
+    width: calc(100% - 20px);
+    height: 40px;
+    padding: 10px;
+}
+.spnContentBox-title{
+    line-height: 35px;
+    vertical-align: middle;
+}
+.btnTitle{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    background-color: #fff;
+    outline: none;
+}
+.active{
+    background-color: #3C89C7;
+    color: #fff;
+}
+.divInputdetails{
+    width: calc(100% - 20px);
+    height: 50%;
+    padding: 10px;
+}
+.inputText{
+    width: calc(100% - 50px);
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    margin-top: 30px;
+}
+.inputText-small{
+    width: calc(100% - 299px);
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+input[type="text"]:focus {
+    border-color: #3C89C7;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  }   
+.divButtons{
+    margin-top: 10px;
+    height: 20%;
+    text-align: center;
+    padding: 10px;
+}
+.buttonLogin{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    background-color: #019267;
+    cursor: pointer;
+}
